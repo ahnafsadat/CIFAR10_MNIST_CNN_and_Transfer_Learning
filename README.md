@@ -21,46 +21,83 @@ We have created four image classification models in this project. We will guide 
 
 1. CNN Model for MNIST dataset:
 
-a.	Locate file ”\MNIST\MNIST_self_build.ipynb”
-b.	Change the first two cells as mentioned in the top of the document
-c.	Run all the code blocks
-d.	You will get the model as 'MNIST_self_build_model.h5' in the directory.
+
+    a.	Locate file ”\MNIST\MNIST_self_build.ipynb”
+    
+    b.	Change the first two cells as mentioned in the top of the document
+    
+    c.	Run all the code blocks
+
+    d.	You will get the model as 'MNIST_self_build_model.h5' in the directory.
 2.	Transfer Learning (VGG-19) Model for MNIST dataset:
-a.	Due to ram restrictions, we have developed the model in four stages.
-b.	We need to run four scripts sequentially.
-c.	First locate the file “\MNIST\MNIST_VGG19_first_stage.ipynb”
-d.	Run all the code blocks
-e.	You will get the model as 'epoch10_stage_1_MNIST_VGG_build_model.h5' and 'epoch10_stage_1_lr.txt' in the directory.
-f.	Then locate the file “\MNIST\MNIST_VGG19_second_stage.ipynb”
-g.	Run all the code blocks
-h.	You will get the model as 'epoch10_stage_2_MNIST_VGG_build_model.h5' and 'epoch10_stage_2_lr.txt' in the directory.
-i.	Then locate the file “\MNIST\MNIST_VGG19_third_stage.ipynb”
-j.	Run all the code blocks
-k.	You will get the model as 'epoch10_stage_3_MNIST_VGG_build_model.h5' in the directory.
-l.	Then locate the file “\MNIST\MNIST_VGG19_fourth_stage.ipynb”
-m.	Run all the code blocks
-n.	You will get the model as 'epoch10_10_final_model_MNIST_VGG_build_model.h5' in the directory. This is the final VGG model for MNIST dataset.
+
+    a.	Due to ram restrictions, we have developed the model in four stages.
+    
+    b.	We need to run four scripts sequentially.
+
+    c.	First locate the file “\MNIST\MNIST_VGG19_first_stage.ipynb”
+
+    d.	Run all the code blocks
+
+    e.	You will get the model as 'epoch10_stage_1_MNIST_VGG_build_model.h5' and 'epoch10_stage_1_lr.txt' in the directory.
+
+    f.	Then locate the file “\MNIST\MNIST_VGG19_second_stage.ipynb”
+
+    g.	Run all the code blocks
+
+    h.	You will get the model as 'epoch10_stage_2_MNIST_VGG_build_model.h5' and 'epoch10_stage_2_lr.txt' in the directory.
+
+    i.	Then locate the file “\MNIST\MNIST_VGG19_third_stage.ipynb”
+
+    j.	Run all the code blocks
+
+    k.	You will get the model as 'epoch10_stage_3_MNIST_VGG_build_model.h5' in the directory.
+
+    l.	Then locate the file “\MNIST\MNIST_VGG19_fourth_stage.ipynb”
+
+    m.	Run all the code blocks
+
+    n.	You will get the model as 'epoch10_10_final_model_MNIST_VGG_build_model.h5' in the directory. This is the final VGG model for MNIST dataset.
 
 3.	CNN Model for CIFAR10 dataset:
-a.	Locate file ”\CIFAR10\CIFAR10_self_build.ipynb”
-b.	Change the first two cells as mentioned in the top of the document
-c.	Run all the code blocks
-d.	You will get the model as 'CIFAR10_self_build_model.h5' in the directory.
+
+    a.	Locate file ”\CIFAR10\CIFAR10_self_build.ipynb”
+
+    b.	Change the first two cells as mentioned in the top of the document
+
+    c.	Run all the code blocks
+
+    d.	You will get the model as 'CIFAR10_self_build_model.h5' in the directory.
+
 4.	Transfer Learning (VGG-19) Model for CIFAR10 dataset:
-a.	Due to ram restrictions, we have developed the model in four stages.
-b.	We need to run four scripts sequentially.
-c.	First locate the file ”\CIFAR10\CIFAR10_VGG19_first_stage.ipynb”
-d.	Run all the code blocks
-e.	You will get the model as 'epoch10_stage_1_CIFAR10_VGG_build_model.h5' and 'epoch10_stage_1_lr.txt' in the directory.
-f.	Then locate the file ”\CIFAR10\CIFAR10_VGG19_second_stage.ipynb”
-g.	Run all the code blocks
-h.	You will get the model as 'epoch15_stage_2_CIFAR10_VGG_build_model.h5' and 'epoch15_stage_2_lr.txt' in the directory.
-i.	Then locate the file ”\CIFAR10\CIFAR10_VGG19_third_stage.ipynb”
-j.	Run all the code blocks
-k.	You will get the model as 'epoch10_stage_3_CIFAR10_VGG_build_model.h5' in the directory.
-l.	Then locate the file ”\CIFAR10\CIFAR10_VGG19_fourth_stage.ipynb”
-m.	Run all the code blocks
-n.	You will get the model as 'epoch10_15_final_model_CIFAR10_VGG_build_model.h5' in the directory. This is the final VGG model for MNIST dataset.
+
+    a.	Due to ram restrictions, we have developed the model in four stages.
+
+    b.	We need to run four scripts sequentially.
+
+    c.	First locate the file ”\CIFAR10\CIFAR10_VGG19_first_stage.ipynb”
+
+    d.	Run all the code blocks
+
+    e.	You will get the model as 'epoch10_stage_1_CIFAR10_VGG_build_model.h5' and 'epoch10_stage_1_lr.txt' in the directory.
+
+    f.	Then locate the file ”\CIFAR10\CIFAR10_VGG19_second_stage.ipynb”
+
+    g.	Run all the code blocks
+
+    h.	You will get the model as 'epoch15_stage_2_CIFAR10_VGG_build_model.h5' and 'epoch15_stage_2_lr.txt' in the directory.
+
+    i.	Then locate the file ”\CIFAR10\CIFAR10_VGG19_third_stage.ipynb”
+
+    j.	Run all the code blocks
+
+    k.	You will get the model as 'epoch10_stage_3_CIFAR10_VGG_build_model.h5' in the directory.
+
+    l.	Then locate the file ”\CIFAR10\CIFAR10_VGG19_fourth_stage.ipynb”
+
+    m.	Run all the code blocks
+
+    n.	You will get the model as 'epoch10_15_final_model_CIFAR10_VGG_build_model.h5' in the directory. This is the final VGG model for MNIST dataset.
 
 
 You can find the completely developed models in the following link:
